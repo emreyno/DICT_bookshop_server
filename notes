@@ -1,0 +1,75 @@
+const book1 = BookModel.create({
+    image:'https://covers.zlibcdn2.com/covers299/books/2c/77/25/2c7725a25b1284ac8e24013c8ec20e1c.jpg',
+    title:"The Notebook",
+    desc:"Noah Calhoun has returned from war and, in an attempt to escape the ghosts of battle, he sets his mind and his body to restoring an old plantation home to its former beauty.
+    But he is haunted by memories of the beautiful girl he met there years before. A girl who stole his heart at the funfair, whose parents didn't approve, a girl he wrote to every day for a year.
+    When Allie Hamilton shows up on his doorstep, exactly as he has held her in his memory for all these years, Noah has one last chance to win her back. Only this time, it's not just her parents in the way - Allie is engaged and she's not a woman to go back on her promises.
+    The Notebook is the love story to end all love stories - it will break your heart, heal it back up and break it all over again.",
+    pubDate:"2007",
+    author:"Nicholas Sparks",
+    stock:100,
+    price:400,
+    });
+
+    const book2 = BookModel.create({
+        image:'https://covers.zlibcdn2.com/covers299/books/e4/09/62/e40962ace005d74c3d834130b4624eb4.jpg',
+        title:"The Wedding",
+        desc:"After thirty years of marriage, Wilson Lewis, son-in-law of Allie and Noah Calhoun (of The Notebook), is forced to admit that the romance has gone out of his marriage. Desperate to win back his wife, Jane’s, heart, he must figure out how to make her fall in love with him… again. Despite the shining example of Allie and Noah’s marriage, Wilson is himself a man unable to easily express his emotions. A successful estate attorney, he has provided well for his family, but now, with his daughter’s upcoming wedding, he is forced to face the fact that he and Jane have grown apart and he wonders if she even loves him anymore. Wilson is sure of one thing—his love for his wife has only deepened and intensified over the years. Now, with the memories of his in-laws’ magnificent fifty-year love affair as his guide, Wilson struggles to find his way back into the heart of the woman he adores.",
+        pubDate:"2003",
+        author:"Nicholas Sparks",
+        stock:100,
+        price:400,
+    });
+
+    const book3 = BookModel.create({
+        image:'https://covers.zlibcdn2.com/covers299/books/f5/98/96/f59896df03ded3b6b6e1db678529071c.jpg',
+        title:"Every Breath",
+        desc:"Hope Anderson is at a crossroads. At thirty-six, she's been dating her boyfriend, an orthopedic surgeon, for six years. With no wedding plans in sight, and her father recently diagnosed with ALS, she decides to use a week at her family's cottage in Sunset Beach, North Carolina, to ready the house for sale and mull over some difficult decisions about her future.
+        Tru Walls has never visited North Carolina but is summoned to Sunset Beach by a letter from a man claiming to be his father. A safari guide, born and raised in Zimbabwe, Tru hopes to unravel some of the mysteries surrounding his mother's early life and recapture memories lost with her death. When the two strangers cross paths, their connection is as electric as it is unfathomable . . . but in the immersive days that follow, their feelings for each other will give way to choices that pit family duty against personal happiness in devastating ways.
+        Illuminating life's heartbreaking regrets and enduring hope, EVERY BREATH explores the many facets of love that lay claim to our deepest loyalties--while asking the question, How long can a dream survive?",
+        pubDate:"2018",
+        author:"Nicholas Sparks",
+        stock:100,
+        price:400,
+    });
+
+    const book4 = BookModel.create({
+        image:'https://covers.zlibcdn2.com/covers299/books/6d/0e/b6/6d0eb640250109288f7e05d9af061b2e.jpg',
+        title:"See Me",
+        desc:"See me just as I see you . . .
+        Colin Hancock is giving his second chance his best shot. With a history of violence and bad decisions behind him and the threat of prison dogging his every step, he's determined to walk a straight line. To Colin, that means applying himself single-mindedly toward his teaching degree and avoiding everything that proved destructive in his earlier life. Reminding himself daily of his hard-earned lessons, the last thing he is looking for is a serious relationship.<br/>Maria Sanchez, the hardworking daughter of Mexican immigrants, is the picture of conventional success. With a degree from Duke Law School and a job at a prestigious firm in Wilmington, she is a dark-haired beauty with a seemingly flawless professional track record. And yet Maria has a traumatic history of her own, one that compelled her to return to her hometown and left her questioning so much of what she once believed.
+        A chance encounter on a rain-swept road will alter the course of both Colin and Maria's lives, challenging deeply held assumptions about each other and ultimately, themselves. As love unexpectedly takes hold between them, they dare to envision what a future together could possibly look like . . . until menacing reminders of events in Maria's past begin to surface.
+        Rich in emotion and fueled with suspense, SEE ME reminds us that love is sometimes forged in the crises that threaten to shatter us . . . and that those who see us for who we truly are may not always be the ones easiest to recognize.",
+        pubDate:"2015",
+        author:"Nicholas Sparks",
+        stock:100,
+        price:400,
+    });
+
+    const book5 = BookModel.create({
+        image:"https://covers.zlibcdn2.com/covers299/books/af/40/92/af4092aaa75f99b6a38abdb5889ebc58.jpg",
+        title:"The Fault In Our Star",
+        desc:"#1 New York Times Bestseller<br/>#1 Wall Street Journal Bestseller<br/>#1 USA Today Bestseller<br/>#1 International Bestseller<br/>TIME Magazine’s #1 Fiction Book of 2012<br/>TODAY Book Club pick<br/>Now a Major Motion Picture<br/>Despite the tumor-shrinking medical miracle that has bought her a few years, Hazel has never been anything but terminal, her final chapter inscribed upon diagnosis. But when a gorgeous plot twist named Augustus Waters suddenly appears at Cancer Kid Support Group, Hazel’s story is about to be completely rewritten.<br/>Insightful, bold, irreverent, and raw, The Fault in Our Stars brilliantly explores the funny, thrilling, and tragic business of being alive and in love.",
+        pubDate:"2012",
+        author:"John Green",
+        stock:100,
+        price:400,
+    });
+
+    const book6 = BookModel.create({
+        image:'https://covers.zlibcdn2.com/covers299/books/9c/17/95/9c17957aa43c9ae714c897bef506e1b4.jpg',
+        title:"Turtles All The Way Down",
+        desc:"A novel; teen and young adult fiction.<br/>It all begins with a fugitive billionaire and the promise of a cash reward. Turtles All the Way Down is about lifelong friendship, the intimacy of an unexpected reunion, Star Wars fan fiction, and tuatara. But at its heart is Aza Holmes, a young woman navigating daily existence within the ever-tightening spiral of her own thoughts.<br/>In his long-awaited return, John Green shares Aza's story with shattering, unflinching clarity.",
+        pubDate:"2017",
+        author:"John Green",
+        stock:100,
+        price:400,
+    });
+
+    book1.save();
+    book2.save();
+    book3.save();
+    book4.save();
+    book5.save();
+    book6.save();
+ 
